@@ -1,0 +1,58 @@
+/* Font */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Latar */
+#about {
+    background-image: url("/assets/images/ski.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 360px;
+    padding: 40px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+
+/* Teks */
+.about-box {
+    width: 620px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    background: rgba(255, 255, 255, 0.90);
+
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #263b5e;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+    color: #093f96;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+}
