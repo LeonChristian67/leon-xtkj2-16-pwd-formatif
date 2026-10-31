@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+        }
+
+        .layout {
+            display: flex;
+            min-height: 280px;
+        }
+
+        #sidebar {
+            width: 25%;
+            background-color: rgb(0, 0, 107);
+            color: #ffffff;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        #sidebar h3 {
+            margin: 0 0 12px;
+        }
+
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        #sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        #sidebar a:hover {
+            color: #d29c11;
+        }
+
+        .main-content {
+            width: 75%;
+            padding: 30px;
+        }
+
+        .main-content h1 {
+            color: rgb(0, 0, 107);
+            margin: 0 0 16px;
+        }
+
+        .main-content p {
+            line-height: 1.8;
+            margin: 0 0 8px;
+            font-size: 17px;
+            color: #333333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #bdbdbd;
+            color: #1031b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside id="sidebar">
+            <h3>Menu</h3>
+            <nav>
+                <a href="/pages/profile.html">Profil</a>
+                <a href="/pages/gallery.html">Proyek</a>
+                <a href="/components/card.html">Keahlian</a>
+                <a href="/pages/contact.html">Kontak</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Profil Saya</h1>
+
+            <p>Saya Leon, siswa kelas X TKJ 2. Saya sedang belajar membuat website dengan HTML dan CSS.</p>
+            <p>Di halaman ini ada ringkasan tentang saya, proyek yang sudah dibuat, dan kemampuan yang sedang dipelajari.</p>
+            <p>Gunakan menu disebelah kiri untuk berpindah antar bagian portofolio.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+</body>
+</html>
