@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #243b66;
+    color: #ffffff;
+}
+
+main {
+    width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#components h2,
+#pages h2 {
+    font-size: 20px;
+    color: #202d4b;
+}
+
+main a {
+    color: #e69640;
+}
+
+footer {
+    text-align: center;
+    font-size: 17px;
+    padding: 14px;
+    background-color: #d7e1f0;
+}
