@@ -1,3 +1,4 @@
+/* Font */
 body {
     margin: 0;
     padding: 24px 0;
@@ -5,22 +6,26 @@ body {
     background-color: #efeff7;
 }
 
+/* Mengatur seluruh komponen di dalam tag gallery */
 #gallery {
     width: 900px;
     margin: 0 auto;
 }
 
+/* Judul */
 #gallery h2 {
     text-align: center;
     color: darkblue;
 }
 
+/* Mengatur kolom */
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
+/* Mengatur kotak */
 .gallery > .gallery-item {
     padding: 12px;
     border: 1px solid #243453;
@@ -29,6 +34,7 @@ body {
     background-color: #ffffff;
 }
 
+/* Mengatur Gambar */
 .gallery-item img {
     width: 100%;
     height: 150px;
@@ -39,12 +45,14 @@ body {
     border-radius: 4px;
 }
 
+/* Judul Gambar */
 .gallery-item h3 {
     font-size: 16px;
     margin: 10px 0 0;
     color: #3a4f77;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;

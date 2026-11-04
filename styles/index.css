@@ -1,9 +1,11 @@
+/* Font */
 body {
     margin: 0;
     background-color: aliceblue;
     font-family: Arial, sans-serif;
 }
 
+/* Mengatur seluruh komponen di dalam tag header */
 header {
     text-align: center;
     padding: 20px;
@@ -11,27 +13,32 @@ header {
     color: #ffffff;
 }
 
+/* Mengatur seluruh komponen di dalam tag main */
 main {
     width: 400px;
     margin: 0px auto;
     padding: 20px;
 }
 
+/* Mengatur seluruh komponen di dalam tag section */
 section {
     margin-bottom: 10px;
     line-height: 1.6;
 }
 
+/* Judul */
 #components h2,
 #pages h2 {
     font-size: 20px;
     color: #202d4b;
 }
 
+/* Mengatur warna */
 main a {
     color: #e69640;
 }
 
+/* Footer */
 footer {
     text-align: center;
     font-size: 17px;

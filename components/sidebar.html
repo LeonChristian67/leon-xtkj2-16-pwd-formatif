@@ -6,21 +6,25 @@
     <title>Sidebar</title>
 
     <style>
+        /* Mengatur ukuran elemen agar border termasuk dalam ukuran elemen */
         * {
             box-sizing: border-box;
         }
 
+        /* Font */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: aliceblue;
         }
 
+        /* Layout */
         .layout {
             display: flex;
             min-height: 280px;
         }
 
+        /* Mengatur seluruh komponen di dalam tag sidebar */
         #sidebar {
             width: 25%;
             background-color: rgb(0, 0, 107);
@@ -29,16 +33,19 @@
             line-height: 1.8;
         }
 
+        /* Judul */
         #sidebar h3 {
             margin: 0 0 12px;
         }
 
+        /* Posisi */
         #sidebar nav {
             display: flex;
             flex-direction: column;
             gap: 12px;
         }
 
+        /* Tampilan link */
         #sidebar a {
             color: #ffffff;
             text-decoration: none;
@@ -49,6 +56,7 @@
             color: #d29c11;
         }
 
+        /* Mengatur seluruh komponen di dalam tag main-content */
         .main-content {
             width: 75%;
             padding: 30px;
@@ -66,6 +74,7 @@
             color: #333333;
         }
 
+        /* Footer */
         footer {
             text-align: center;
             padding: 14px;

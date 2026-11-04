@@ -1,3 +1,4 @@
+/* Font */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,6 +10,7 @@ h3 {
     color: darkblue;
 }
 
+/* Bagian Menu */
 .menu {
     margin-bottom: 20px;
 }
@@ -25,6 +27,7 @@ h3 {
     color: #3a98fc;
 }
 
+/* Bagian Button */
 .btn {
     display: inline-block;
     padding: 10px 24px;
@@ -35,6 +38,7 @@ h3 {
     margin-right: 10px;
 }
 
+/* Animasi */
 .btn-grow {
     background-color: #3a98fc;
     color: #fff;
@@ -45,6 +49,7 @@ h3 {
     transform: scale(1.05);
 }
 
+/* Latar */
 .btn-darken {
     background-color: #e8912d;
     color: #ffffff;
@@ -55,11 +60,13 @@ h3 {
     background-color: #b36a1c;
 }
 
+/* Tab */
 a:focus {
     outline: 3px solid #2f6fed;
     outline-offset: 3px;
 }
 
+/* Footer */
 footer {
     margin-top: 24px;
 }
